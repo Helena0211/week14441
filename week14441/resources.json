@@ -1,0 +1,60 @@
+{
+    "resources": [
+        {
+            "id": 1,
+            "name": "Digital Literacy Kit",
+            "price": 49.99,
+            "description": "Basic digital skills for various contexts.",
+            "image": "image/9.jpg"
+        },
+        {
+            "id": 2,
+            "name": "IT Support Kit",
+            "price": 59.99,
+            "description": "Tools and resources for entry-level IT support.",
+            "image": "image/10.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Networking Kit",
+            "price": 39.99,
+            "description": "Resources for advanced networking and systems administration.",
+            "image": "image/11.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Programming Kit",
+            "price": 45.99,
+            "description": "Resources for advanced programming and IT project management.",
+            "image": "image/12.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Cybersecurity Kit",
+            "price": 69.99,
+            "description": "Tools for cybersecurity training.",
+            "image": "image/13.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Web Development Kit",
+            "price": 49.99,
+            "description": "Includes tools and resources for web development.",
+            "image": "image/14.jpg"
+        },
+        {
+            "id": 7,
+            "name": "IT Project Management Kit",
+            "price": 59.99,
+            "description": "Kit for IT project management and business IT solutions.",
+            "image": "image/15.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Systems Administration Kit",
+            "price": 45.99,
+            "description": "Resources for systems administration and IT solutions.",
+            "image": "image/16.jpg"
+        }
+    ]
+}
