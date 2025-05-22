@@ -351,6 +351,7 @@ function updateCartUI() {
                         <button class="quantity-btn" onclick="updateCartItem(${item.id}, ${item.quantity - 1})">-</button>
                         <span class="quantity-display">${item.quantity}</span>
                         <button class="quantity-btn" onclick="updateCartItem(${item.id}, ${item.quantity + 1})">+</button>
+                        <button class="update-btn" onclick="confirmUpdateQuantity(${item.id})">Update</button>
                     </div>
                     <p class="cart-item-subtotal">Subtotal: $${(item.price * item.quantity).toFixed(2)}</p>
                 </div>
