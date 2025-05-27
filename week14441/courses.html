@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAFE - Courses</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+     <div class="header">
+        <div class="logo-container">
+            <img src="image/logo.png" alt="Logo" class="logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shopping.html">Shopping</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li id="auth-link"><a href="#" id="login-logout-link">Login</a></li>
+            </ul>
+        </nav>
+         <div id="welcome-message-container"></div> 
+    </div>
+    <div class="content-section">
+        <h1>IT Courses</h1>
+        <div id="course-list">
+            <!-- Courses will be loaded here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TAFE. Created by Helena.</p>
+    </footer>
+
+    <script src="scripts/main2.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            await fetchCourses(); 
+            displayCourses(COURSES); 
+        });
+    </script>
+</body>
+</html>

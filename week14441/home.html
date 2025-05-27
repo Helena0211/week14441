@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAFE - Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="image/logo.png" alt="Logo" class="logo">
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shopping.html">Shopping</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li id="auth-link"><a href="#" id="login-logout-link">Login</a></li>
+            </ul>
+        </nav>
+         <div id="welcome-message-container"></div> 
+    </div>
+
+    <div class="banner">
+        <h1>Welcome to TAFE.Helena</h1>
+        <p>Your Gateway to IT Excellence</p>
+        <p>Address:92-100 Donnison Street, Gosford, NSW 2250</p>
+    </div>
+
+    <div class="auth-forms">
+        <form id="login-form" onsubmit="event.preventDefault(); login();">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username" required autocomplete="username">
+            <input type="password" id="login-password" placeholder="Password" required autocomplete="current-password">
+            <button type="submit">Login</button>
+        </form>
+
+        <form id="register-form" onsubmit="event.preventDefault(); register();">
+            <h2>Register</h2>
+            <input type="text" id="register-username" placeholder="Username" required autocomplete="username">
+            <input type="password" id="register-password" placeholder="Password" required autocomplete="new-password">
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div id="course-list">
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TAFE. Created by Helena.</p>
+    </footer>
+
+    <script src="scripts/main2.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "(ICT20120)Certificate II in Applied Digital Technologies",
+            "description": "Basic digital skills for various contexts.",
+            "price": 149.99,
+            "assessment": "Practical tasks and projects",
+            "projects": ["Digital Literacy Project", "Basic Coding Challenge"],
+            "image": "image/1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "(ICT30120)Certificate III in Information Technology",
+            "description": "Entry-level IT support, networking, and cybersecurity.",
+            "price": 199.99,
+            "assessment": "Practical tasks and projects",
+            "projects": ["Network Setup", "Basic Cybersecurity Plan"],
+            "image": "image/2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "(ICT40120)Certificate IV in Information Technology",
+            "description": "Advanced IT support, networking, and systems administration.",
+            "price": 249.99,
+            "assessment": "Practical tasks and projects",
+            "projects": ["Advanced Network Configuration", "System Administration Project"],
+            "image": "image/3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "(ICT50220)Diploma of Information Technology",
+            "description": "Advanced networking, programming, and IT project management.",
+            "price": 299.99,
+            "assessment": "Final exam and project",
+            "projects": ["Network Security Project", "Web Development Project"],
+            "image": "image/4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "(ICT60220)Advanced Diploma of Information Technology",
+            "description": "Cybersecurity, full-stack web development, IT strategy, and systems development.",
+            "price": 349.99,
+            "assessment": "Final exam and project",
+            "projects": ["Cybersecurity Penetration Testing", "Full-Stack Web Application"],
+            "image": "image/5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "(22603VIC)Certificate IV in Cyber Security",
+            "description": "Cybersecurity technician-level skills.",
+            "price": 279.99,
+            "assessment": "Practical tasks and projects",
+            "projects": ["Penetration Testing", "Security Audit"],
+            "image": "image/6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "(ICT30115)Certificate III in Information Technology (ICT30115)",
+            "description": "IT support, networking, and systems administration.",
+            "price": 199.99,
+            "assessment": "Practical tasks and projects",
+            "projects": ["Network Setup", "Basic Cybersecurity Plan"],
+            "image": "image/7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "(ICT50115)Diploma of Information Technology (ICT50115)",
+            "description": "IT project management, systems administration, and business IT solutions.",
+            "price": 299.99,
+            "assessment": "Final exam and project",
+            "projects": ["Network Security Project", "Business IT Solution"],
+            "image": "image/8.jpg"
+        }
+    ]
+}
