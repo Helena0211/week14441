@@ -227,7 +227,7 @@ function updateAuthLink() {
         }
     } else {
         
-        authLink.textContent = 'Login';
+        authLink.textContent = 'Logout';
         authLink.href = 'home.html';
         
         if (welcomeMessageContainer) {
